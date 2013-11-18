@@ -9,3 +9,7 @@ Dependencies
 -----------------------------
 * jQuery
 * Bootstrap (Bootstrap tooltip)
+
+Todo List
+-----------------------------
+- [ ] Make it a bower component
