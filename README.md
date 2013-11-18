@@ -7,8 +7,9 @@ Tooltips appear after a one second (can be customized) delay, and then all subse
 
 Dependencies
 -----------------------------
-* jQuery
-* Bootstrap (Bootstrap tooltip)
+
+- jQuery
+- Bootstrap (Bootstrap tooltip)
 
 Todo List
 -----------------------------
