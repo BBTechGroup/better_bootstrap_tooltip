@@ -37,7 +37,7 @@
                         if (mouseLeaveTimer) {
                             isFirstHover = true;
                         }
-                    }, _show);
+                    }, 200);
                 });
         } else {
             return this.tooltip(option);
