@@ -12,10 +12,10 @@
         option = option || {};
 
         _trigger = option.trigger || 'hover';
-        _show = option.delay.show || 0;
+        _show = (option.delay && option.delay.show) || 0;
         if (_trigger === 'hover') {
             option.trigger = 'manual';
-            option.delay.show = 0;
+            if (_show) option.delay.show = 0;
             return this.tooltip(option)
                 .mouseenter(function(e) {
                     var that = this;
